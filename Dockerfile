@@ -32,4 +32,4 @@ EXPOSE 80
 
 VOLUME ["/var/log/nginx"]
 
-CMD ["/bin/sh", "-c", "docker-php-entrypoint"]
+CMD ["/bin/sh", "-c", "/usr/local/bin/docker-php-entrypoint"]
